@@ -1,0 +1,8 @@
+*venv/
+*Datasets/
+*__pycache__/
+
+# Excluding notes additional files
+*Images/
+notes*
+!notes.pdf
