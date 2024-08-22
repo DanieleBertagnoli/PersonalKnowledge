@@ -1,6 +1,7 @@
 *venv/
 *Datasets/
 *__pycache__/
+*.pth
 
 # Excluding notes additional files
 *Images/

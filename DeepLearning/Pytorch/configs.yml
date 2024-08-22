@@ -3,3 +3,5 @@ batch_size: 32
 hidden_units: 256
 lr: 0.01
 epochs: 10
+
+models_dir: 'TrainedModels'
