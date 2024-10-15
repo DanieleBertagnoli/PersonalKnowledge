@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Transformers}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Input Embedding Layer}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Transformer Encoder}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Positional Embeddings}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Encoding Layer}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Multi-Head Attention Layer}{9}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Normalization and Residual Connections}{11}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Feed-Forward Network}{11}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Considerantions about Self-Attention}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Output Encoding}{13}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Transformer Decoder}{13}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Positional Embedding}{15}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Decoding Layer}{15}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Masked Self-Attention Mechanism}{15}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Encoder-Decoder Multi-Head Attention or Cross Attention}{15}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.5}Feed-Forward Network}{16}{subsubsection.2.6.5}%
+\contentsline {subsubsection}{\numberline {2.6.6}Linear Projection Layer and Softmax Activation Function}{17}{subsubsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.7}Loss}{17}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Vision Transformer (ViT)}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Input Pre-processing}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}ViT Encoder}{19}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Multi-head Attention Network (MAH or MSP)}{19}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Residual Connections and Norm Layer}{20}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Multi-Layer Perceptrons (MLP)}{20}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}ViT Classifier}{21}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Loss}{21}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Detection Transformer (DETR)}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}CNN Backbone Module}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Transformer Module}{22}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}DETR Encoder Module}{22}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}DETR Decoder Module}{23}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}DETR Prediction Module}{23}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {5}Deformable DETR}{25}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Deformable Attention Mechanism}{26}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Features Maps Flattening}{26}{subsubsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.2}Deformable Attention Mechanism}{27}{subsection.5.2}%
