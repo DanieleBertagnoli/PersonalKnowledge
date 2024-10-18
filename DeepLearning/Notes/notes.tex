@@ -831,4 +831,52 @@ Where $\text{PE}(\phi_{mj})$ is the positional encoding function.
 
 \textbf{The rest of the architecture is exactly the same of the DETR architecture}.
 
+\section{BERT}
+BERT is a transformer-based model, therefore it's main core is the attention 
+mechanism. BERT stands for Bidirectional Encoder Representations from Transformers.
+BERT is not a full encoder-decoder architecture, indeed it's main goal is not 
+to predict the final words like in standard transformers. BERT's architecture
+is mainly composed by the encoder that works identically to the standard
+transformer encoder.
+
+In BERT the goal is to find the best relationship and semantics in words and
+sentences thanks to two main mechanisms: 
+\begin{itemize}
+    \item \textbf{Masked Language Modelling (MLM)}
+    \item \textbf{Next Sentence Prediction (NSP)}
+\end{itemize}
+
+These two mechanisms are both used at training time to find and capture 
+all the relationship between the words. During the training, two losses 
+(one for MLM and one for NSP) are used to update the parameters.
+
+The model gives in output the attention scores that can be used to predict 
+something based on the task (e.g. classifiy if the sentece is grammatically 
+correct or not, classifiy the emotion perceived from the sentece).
+
+BERT was trained on Wikipedia and Google's BooksCorpus in two different versions,
+$\text{BERT}_\text{BASE}$ and $\text{BERT}_\text{LARGE}$ (\hyperref[fig:bert]{Figure~\ref*{fig:bert}}).
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.8\textwidth]{bert.png}
+    \label{fig:bert}
+\end{figure}
+
+\subsection{MLM}
+MLM enables/enforces bidirectional learning from text by masking (hiding) 
+a word in a sentence and forcing BERT to bidirectionally use the words on 
+either side of the covered word to predict the masked word.
+A random 15\% of tokenized words are hidden during training and BERT's job 
+is to correctly predict the hidden words. Upon this concept, a loss is 
+then used to train the model on this mechanism.
+
+\subsection{NSP}
+NSP (Next Sentence Prediction) is used to help BERT learn about relationships 
+between sentences by predicting if a given sentence follows the previous 
+sentence or not. In training, 50\% correct sentence pairs are mixed in 
+with 50\% random sentence pairs to help BERT increase next sentence 
+prediction accuracy. As we did for MLM, also for NSP we create a loss to train the model.
+
+
 \end{document}
